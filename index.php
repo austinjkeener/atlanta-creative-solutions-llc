@@ -88,7 +88,6 @@ if (isset($_POST['submit'])) {
   <!-- Your Chat Plugin code -->
   <div id="fb-customer-chat" class="fb-customerchat">
   </div>
-
   <!--navigation bar-->
   <!--section 1-->
   <!--section 2-->
