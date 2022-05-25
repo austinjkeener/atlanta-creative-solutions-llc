@@ -44,11 +44,11 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta data for social media website sharing-->
     <meta property="og:url" content="https://www.atlantacreative.org" />
-    <meta property="og:image" content="https://www.atlantacreative.org/image/" />
+    <meta property="og:image" content="https://www.atlantacreative.org/image/logo/" />
     <meta property="og:title" content="Atlanta Creative Solutions LLC" />
     <meta property="og:description" content="Atlanta Creative Solutions Website" />
-    <meta property="og:image:width" content="" />
-    <meta property="og:image:height" content="" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
     <title>Atlanta Creative Solutions LLC</title>
 
