@@ -25,7 +25,6 @@ if (isset($_POST['submit'])) {
 <html lang="en">
 
 <head>
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2X8MYVB6MQ"></script>
   <script>
@@ -78,7 +77,6 @@ if (isset($_POST['submit'])) {
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/image/logo/apple-touch-icon-72x72.png">
   <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/image/logo/apple-touch-icon-57x57.png"><!-- 57×57px -->
-
 </head>
 
 <body>
@@ -112,9 +110,8 @@ if (isset($_POST['submit'])) {
         <img src="/image/footer/Instagram_Glyph_Gradient_RGB.png" class="footer-social-media" alt="Atlanta Creative Solutions LLC on Instagram">
       </div>
     </div>
-
   </footer>
-
+<!--Facebook chat box script--> 
   <script>
     var chatbox = document.getElementById('fb-customer-chat');
     chatbox.setAttribute("page_id", "113276933916027");
