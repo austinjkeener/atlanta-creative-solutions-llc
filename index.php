@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
 <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=measurement-id"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2X8MYVB6MQ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
         }
         gtag('js', new Date());
 
-        gtag('config', 'measurement-id');
+        gtag('config', 'G-2X8MYVB6MQ');
     </script>
 
     <meta charset="UTF-8">
@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta data for social media website sharing-->
     <meta property="og:url" content="https://www.atlantacreative.org" />
-    <meta property="og:image" content="https://www.atlantacreative.org/image/logo/" />
+    <meta property="og:image" content="https://www.atlantacreative.org/image/logo/homepage-social-share.png" />
     <meta property="og:title" content="Atlanta Creative Solutions LLC" />
     <meta property="og:description" content="Atlanta Creative Solutions Website" />
     <meta property="og:image:width" content="1200" />
@@ -61,23 +61,23 @@ if (isset($_POST['submit'])) {
     <!-- Main CSS -->
     <link href="style.css" rel="stylesheet" media="screen" />
     <!-- For Chrome for Android: -->
-    <link rel="icon" sizes="192x192" href="/image/">
+    <link rel="icon" sizes="192x192" href="/image/logo/android-chrome-192x192.png">
     <!-- For iPhone 6 Plus with @3× display: -->
-    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/image/">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/image/logo/apple-touch-icon.png">
     <!-- For iPad with @2× display running iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/image/">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/image/logo/apple-touch-icon-152x152.png">
     <!-- For iPad with @2× display running iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/image/">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/image/logo/apple-touch-icon-144x144.png">
     <!-- For iPhone with @2× display running iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/image/">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/image/logo/apple-touch-icon-120x120.png">
     <!-- For iPhone with @2× display running iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/image/">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/image/logo/apple-touch-icon-114x114.png">
     <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/image/">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/image/logo/apple-touch-icon-76x76.png">
     <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/image/">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/image/logo/apple-touch-icon-72x72.png">
     <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/image/"><!-- 57×57px -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/image/logo/apple-touch-icon-57x57.png"><!-- 57×57px -->
 
 </head>
 
