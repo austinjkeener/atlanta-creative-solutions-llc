@@ -87,6 +87,44 @@ if (isset($_POST['submit'])) {
   <div id="fb-customer-chat" class="fb-customerchat">
   </div>
   <!--navigation bar-->
+  <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="/image/logo/logo-brand(2).png" class="img-fluid" alt="Welcome to Atlanta Creative Solutions LLC">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Process</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  </header>
+
   <!--section 1-->
   <!--section 2-->
   <!--section 3-->
@@ -99,15 +137,10 @@ if (isset($_POST['submit'])) {
   <!--page footer-->
   <footer>
     <div class="row">
-      <div class="col-lg-8 col-md-12 col-sm-12">
-        <p>Atlanta Creative Solutions LLC &copy; 2022 all rights reserved</p>
-      </div>
-      <!--social media-->
-      <div class="col-lg-2 col-md-12 col-sm-12">
-        <img src="/image/footer/f_logo_RGB-Blue_100.png" class="footer-social-media" alt="Atlanta Creative Solutions LLC on Facebook">
-      </div>
-      <div class="col-lg-2 col-md-12 col-sm-12">
-        <img src="/image/footer/Instagram_Glyph_Gradient_RGB.png" class="footer-social-media" alt="Atlanta Creative Solutions LLC on Instagram">
+      <div class="col-12 mt-3">
+        <p class="ms-3">Atlanta Creative Solutions LLC &copy; 2022 all rights reserved</p>
+        <img src="/image/footer/f_logo_RGB-Blue_100.png"  width="50px" height="50px" class="footer-social-media" alt="Atlanta Creative Solutions LLC on Facebook">
+        <img src="/image/footer/Instagram_Glyph_Gradient_RGB.png" width="50px" height="50px" class="footer-social-media" alt="Atlanta Creative Solutions LLC on Instagram">
       </div>
     </div>
   </footer>
