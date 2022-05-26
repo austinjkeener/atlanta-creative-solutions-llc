@@ -126,8 +126,82 @@ if (isset($_POST['submit'])) {
   </header>
 
   <!--section 1-->
-  <!--section 2-->
-  <!--section 3-->
+<section>
+  <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="row">
+        <p class="fs-3">Business Professional Marketing And Advertising Solutions</p>
+      </div>
+      <div class="row">
+        <p>Serving those who God puts in partnership with us by providing new and existing professionally licensed businesses (lawyers, doctors, pastors, CPA's, ect...) with creative bundles and stand alone creative solutions to help get the word out about their product or service to thier customers.</p>
+      </div>
+      <div class="row">
+        <a href="#" class="s1-buttons">View work</a>
+        <a href="#" class="s1-buttons">About us</a>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+    </div>
+  </div>
+</section>
+
+<!--section 2-->
+<section>
+      <div class="row">
+        <div class="col-12">
+          <p>Why me</p>
+          <p class="fs-4">Your Website Should Not Just Be Beautiful But Should Also Make A Difference</p> 
+        </div>
+  </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <img src="/image/s2/hp-section-two.png" class="img-fluid" alt="Why choose Atlanta Creative Solutions LLC">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <p>Let us craft a high-performing beautiful website for you that will get you new clients, portray your brand, and be both mobile-friendly and desktop-friendly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <!--section 3-->
+    <section>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+    <p class="fs-4">
+      We Are Here To Help
+    </p>
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+        </div>
+        <div class="col-lg-8 col-md-12 col-sm-12">
+        <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/image/s3/hp-section-three(1)-type.png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Design Work">
+        </div>
+        <div class="carousel-item">
+          <img src="/image/s3/hp-section-three(2)-type.png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Development Work">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+        </div>
+      </div>
+    </section>
   <!--section 4-->
   <!--section 5-->
   <!--section 6-->
