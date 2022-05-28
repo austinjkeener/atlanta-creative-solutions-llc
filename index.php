@@ -88,121 +88,121 @@ if (isset($_POST['submit'])) {
   </div>
   <!--navigation bar-->
   <header>
-      <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.php">
-      <img src="/image/logo/logo-brand(2).png" class="img-fluid" alt="Welcome to Atlanta Creative Solutions LLC">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#services">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#testimonials">Testimonials</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#process">Process</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#faq">FAQ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">
+          <img src="/image/logo/logo-brand(2).png" class="img-fluid" alt="Welcome to Atlanta Creative Solutions LLC">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#process">Process</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <!--section 1-->
-<section>
-  <div class="row">
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <div class="row">
-        <p class="fs-4">Business Professional Marketing And Advertising Solutions</p>
-      </div>
-      <div class="row">
-        <p>Serving those who God puts in partnership with us by providing new and existing professionally licensed businesses (lawyers, doctors, pastors, CPA's, ect...) with creative bundles and stand alone creative solutions to help get the word out about their product or service to thier customers.</p>
-      </div>
-      <div class="row">
-        <a href="#portfolio" class="s1-buttons">View work</a>
-        <a href="#about" class="s1-buttons">About us</a>
-      </div>
-    </div>
-    <div class="col-lg-6 col-md-12 col-sm-12">
-    </div>
-  </div>
-</section>
-
-<!--section 2-->
-<section>
-      <div class="row">
-        <div class="col-lg-4 col-md-12 col-sm-12">
-          <p>Why me</p>
-          <p class="fs-4">Your Website Should Not Just Be Beautiful But Should Also Make A Difference</p> 
+  <section>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="row">
+          <p class="fs-4">Business Professional Marketing And Advertising Solutions</p>
         </div>
-  </div>
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12">
-              <img src="/image/s2/hp-section-two.png" class="img-fluid" alt="Why choose Atlanta Creative Solutions LLC">
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
-              <p>Let us craft a high-performing beautiful website for you that will get you new clients, portray your brand, and be both mobile-friendly and desktop-friendly.</p>
-            </div>
+        <div class="row">
+          <p>Serving those who God puts in partnership with us by providing new and existing professionally licensed businesses (lawyers, doctors, pastors, CPA's, ect...) with creative bundles and stand alone creative solutions to help get the word out about their product or service to thier customers.</p>
+        </div>
+        <div class="row">
+          <a href="#portfolio" class="s1-buttons">View work</a>
+          <a href="#about" class="s1-buttons">About us</a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+      </div>
+    </div>
+  </section>
+
+  <!--section 2-->
+  <section>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <p>Why me</p>
+        <p class="fs-4">Your Website Should Not Just Be Beautiful But Should Also Make A Difference</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <img src="/image/s2/hp-section-two.png" class="img-fluid" alt="Why choose Atlanta Creative Solutions LLC">
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <p>Let us craft a high-performing beautiful website for you that will get you new clients, portray your brand, and be both mobile-friendly and desktop-friendly.</p>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
-    <!--section 3-->
-    <section id="services">
-      <div class="row">
-        <div class="col-lg-4 col-md-12 col-sm-12">
-    <p>Services</p>
-    <p class="fs-4">
-      We Are Here To Help
-    </p>
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
+  <!--section 3-->
+  <section id="services">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <p>Services</p>
+        <p class="fs-4">
+          We Are Here To Help
+        </p>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="col-lg-8 col-md-12 col-sm-12">
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12">
         <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/image/s3/hp-section-three(1)-type.png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Design Work">
-        </div>
-        <div class="carousel-item">
-          <img src="/image/s3/hp-section-three(2)-type.png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Development Work">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/image/s3/hp-section-three(1)-type.png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Design Work">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s3/hp-section-three(2)-type.png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Development Work">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-        </div>
-      </div>
-    </section>
+  </section>
   <!--section 4-->
   <section id="portfolio">
     <div class="row">
@@ -211,19 +211,98 @@ if (isset($_POST['submit'])) {
         <p class="fs-4">Company Work</p>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="row">
+          <div class="col-12">
+            <img src="/image/s4/work(1).png" class="img-fluid" alt="Atlanta Creative Solutions LLC Company Reviews">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="fs-4">The Keener Law Firm - Website Design/Website Development/Social Media</p>
+            <p>
+              The Keener Law Firm Was Looking For A Fresh Website And Updated Social Media Presence. In Return We Were Able To Deliver A Lead Converting Website Which Currently Receives Maintenance On A Weekly Basis And Also Take Time To Add Content To Social Media For Them As Well.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <span class="badge rounded-pill text-bg-light">Website Design</span>
+          </div>
+          <div class="col-4">
+            <span class="badge rounded-pill text-bg-light">Graphic and Web Development</span>
+          </div>
+          <div class="col-4">
+            <span class="badge rounded-pill text-bg-light">Branding</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="row">
+          <div class="col-12">
+            <img src="/image/s4/major-details-logo-brand-474x375.png" class="img-fluid" alt="Atlanta Creative Solutions LLC Company Reviews">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="fs-4">Major Details Cleaning Service LLC/Auto Detailing - Logo Creation</p>
+            <p>
+            Major Details Wanted A New Logo. In Return We Were Able To Provide This Business With A Fresh Look To Use On Their T-Shirts, Hats, Trucks And Social Media Platforms.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+          <span class="badge rounded-pill text-bg-light">Branding</span>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+          <span class="badge rounded-pill text-bg-light">Logo Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
   <!--section 5-->
   <section id="testimonials">
-  <div class="row">
+    <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <p>Testimonials</p>
         <p class="fs-4">What Our Clients Are Saying</p>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="row">
+          <p class="fs-1">"</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, saepe, necessitatibus voluptatum ea molestiae incidunt excepturi, ab possimus ad aliquam culpa nisi eius fuga! Doloremque iste assumenda distinctio eligendi mollitia!
+          </p>
+          <p class="fs-4">Mr. Keener</p>
+          <p>Owner, The Keener Law Firm</p>
+        </div>
+        <div class="row">
+          <img src="/image/s5/the-keener-law-firm-s5.png" class="img-fluid" alt="Atlanta Creative Solutions LLC Company Reviews">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="row">
+          <p class="fs-1">"</p>
+          <p>
+          I Was Completely New To The Concept Of Graphic Design.  I Knew What I Wanted But Had No Idea How To Make It Happen.  Austin Took The Time To Hear Me And Capture My Vision. He Is Extremely Patient And Can Bring Your Ideas To Life.  Thanks Austin For Holding My Hand Through The Process.
+          </p>
+          <p class="fs-4">Mr. Angelethy</p>
+          <p>Owner, Major Details Cleaning Service, LLC/Auto Detailing</p>
+        </div>
+        <div class="row">
+        <img src="/image/s5/major-details-s5.png" class="img-fluid" alt="Atlanta Creative Solutions LLC Company Reviews">
+        </div>
+      </div>
+    </div>
   </section>
   <!--section 6-->
   <section id="process">
-  <div class="row">
+    <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <p>Methodology</p>
         <p class="fs-4">A Streamlined Process</p>
@@ -232,7 +311,7 @@ if (isset($_POST['submit'])) {
   </section>
   <!--section 7-->
   <section id="about">
-  <div class="row">
+    <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <p>About</p>
         <p class="fs-4">Hi, I am a Creative Solutions Specialist</p>
@@ -241,7 +320,7 @@ if (isset($_POST['submit'])) {
   </section>
   <!--section 8-->
   <section id="faq">
-  <div class="row">
+    <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <p>FAQ Section</p>
         <p class="fs-4">Common Questions Answered</p>
@@ -258,12 +337,12 @@ if (isset($_POST['submit'])) {
     <div class="row">
       <div class="col-12 mt-3">
         <p class="ms-3">Atlanta Creative Solutions LLC &copy; 2022 all rights reserved</p>
-        <img src="/image/footer/f_logo_RGB-Blue_100.png"  width="50px" height="50px" class="footer-social-media" alt="Atlanta Creative Solutions LLC on Facebook">
+        <img src="/image/footer/f_logo_RGB-Blue_100.png" width="50px" height="50px" class="footer-social-media" alt="Atlanta Creative Solutions LLC on Facebook">
         <img src="/image/footer/Instagram_Glyph_Gradient_RGB.png" width="50px" height="50px" class="footer-social-media" alt="Atlanta Creative Solutions LLC on Instagram">
       </div>
     </div>
   </footer>
-<!--Facebook chat box script--> 
+  <!--Facebook chat box script-->
   <script>
     var chatbox = document.getElementById('fb-customer-chat');
     chatbox.setAttribute("page_id", "113276933916027");
