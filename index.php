@@ -90,7 +90,7 @@ if (isset($_POST['submit'])) {
   <header>
       <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
       <img src="/image/logo/logo-brand(2).png" class="img-fluid" alt="Welcome to Atlanta Creative Solutions LLC">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -99,25 +99,25 @@ if (isset($_POST['submit'])) {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#services">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Work</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Testimonials</a>
+          <a class="nav-link" href="#testimonials">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Process</a>
+          <a class="nav-link" href="#process">Process</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">FAQ</a>
+          <a class="nav-link" href="#faq">FAQ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -128,16 +128,16 @@ if (isset($_POST['submit'])) {
   <!--section 1-->
 <section>
   <div class="row">
-    <div class="col-lg-6 col-md-12 col-sm-12">
+    <div class="col-lg-4 col-md-12 col-sm-12">
       <div class="row">
-        <p class="fs-3">Business Professional Marketing And Advertising Solutions</p>
+        <p class="fs-4">Business Professional Marketing And Advertising Solutions</p>
       </div>
       <div class="row">
         <p>Serving those who God puts in partnership with us by providing new and existing professionally licensed businesses (lawyers, doctors, pastors, CPA's, ect...) with creative bundles and stand alone creative solutions to help get the word out about their product or service to thier customers.</p>
       </div>
       <div class="row">
-        <a href="#" class="s1-buttons">View work</a>
-        <a href="#" class="s1-buttons">About us</a>
+        <a href="#portfolio" class="s1-buttons">View work</a>
+        <a href="#about" class="s1-buttons">About us</a>
       </div>
     </div>
     <div class="col-lg-6 col-md-12 col-sm-12">
@@ -148,7 +148,7 @@ if (isset($_POST['submit'])) {
 <!--section 2-->
 <section>
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-4 col-md-12 col-sm-12">
           <p>Why me</p>
           <p class="fs-4">Your Website Should Not Just Be Beautiful But Should Also Make A Difference</p> 
         </div>
@@ -168,9 +168,10 @@ if (isset($_POST['submit'])) {
   </section>
 
     <!--section 3-->
-    <section>
+    <section id="services">
       <div class="row">
         <div class="col-lg-4 col-md-12 col-sm-12">
+    <p>Services</p>
     <p class="fs-4">
       We Are Here To Help
     </p>
@@ -203,11 +204,55 @@ if (isset($_POST['submit'])) {
       </div>
     </section>
   <!--section 4-->
+  <section id="portfolio">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <p>Portfolio</p>
+        <p class="fs-4">Company Work</p>
+      </div>
+    </div>
+  </section>
   <!--section 5-->
+  <section id="testimonials">
+  <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <p>Testimonials</p>
+        <p class="fs-4">What Our Clients Are Saying</p>
+      </div>
+    </div>
+  </section>
   <!--section 6-->
+  <section id="process">
+  <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <p>Methodology</p>
+        <p class="fs-4">A Streamlined Process</p>
+      </div>
+    </div>
+  </section>
   <!--section 7-->
+  <section id="about">
+  <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <p>About</p>
+        <p class="fs-4">Hi, I am a Creative Solutions Specialist</p>
+      </div>
+    </div>
+  </section>
   <!--section 8-->
+  <section id="faq">
+  <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <p>FAQ Section</p>
+        <p class="fs-4">Common Questions Answered</p>
+      </div>
+    </div>
+  </section>
   <!--section 9-->
+  <section id="contact">
+    <p>Need A High-Performing Website?</p>
+    <p class="fs-4">Let Us Get Started</p>
+  </section>
   <!--page footer-->
   <footer>
     <div class="row">
