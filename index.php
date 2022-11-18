@@ -282,7 +282,7 @@ if (isset($_POST['submit'])) {
           <p>Owner, The Keener Law Firm</p>
         </div>
         <div class="row">
-          <img src="/image/s5/the-keener-law-firm-s5.png" class="img-fluid" alt="Atlanta Creative Solutions LLC Company Reviews">
+          <img src="/image/s5/the-keener-law-firm-s5.png" width="200px" alt="Atlanta Creative Solutions LLC Company Reviews">
         </div>
       </div>
       <div class="col-lg-6">
@@ -295,7 +295,7 @@ if (isset($_POST['submit'])) {
           <p>Owner, Major Details Cleaning Service, LLC/Auto Detailing</p>
         </div>
         <div class="row">
-        <img src="/image/s5/major-details-s5.png" class="img-fluid" alt="Atlanta Creative Solutions LLC Company Reviews">
+        <img src="/image/s5/major-details-s5.png" width="200px" alt="Atlanta Creative Solutions LLC Company Reviews">
         </div>
       </div>
     </div>
@@ -365,9 +365,7 @@ if (isset($_POST['submit'])) {
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-12 col-sm-12 border border-dark border-3">
+      <div class="col-lg-6 col-md-12 col-sm-12">
         <img src="/image/s7/hp-section-seven.png" alt="Atlanta Creative Solutions LLC Creative Solutions Specialists">
       </div>
     </div>
