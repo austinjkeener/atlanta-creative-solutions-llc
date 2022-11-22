@@ -54,7 +54,7 @@ if (isset($_POST['submit'])) {
   <!--Favicon-->
   <link rel="shortcut icon" href="favicon.ico" />
 
-  <!-- Bootstrap CDN-->
+  <!-- Bootstrap CSS CDN-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
   <!-- Main CSS -->
@@ -91,7 +91,7 @@ if (isset($_POST['submit'])) {
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
-          <img src="/image/logo/logo-brand(2).png" width="200px" alt="Welcome to Atlanta Creative Solutions LLC"/>
+          <img src="/image/logo/logo-brand(2).png" width="200px" alt="Welcome to Atlanta Creative Solutions LLC" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -130,7 +130,9 @@ if (isset($_POST['submit'])) {
     <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <div class="row">
-          <p class="fs-4">Business Professional Marketing And Advertising Solutions</p>
+          <div class="col-12">
+            <p class="fs-4">Business Professional Marketing And Advertising Solutions</p>
+          </div>
         </div>
         <div class="row">
           <p>Serving those who God puts in partnership with us by providing new and existing professionally licensed businesses (lawyers, doctors, pastors, CPA's, ect...) with creative bundles and stand alone creative solutions to help get the word out about their product or service to thier customers.</p>
@@ -141,12 +143,77 @@ if (isset($_POST['submit'])) {
         </div>
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="row">
+      <div class="col-12">
+        <div id="processControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/image/s6/section-six-carousel(1).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Step one">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(2).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Step Two">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(3).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Step Three">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(4).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Step Four">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(5).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Step Five">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#processControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#processControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process">
+    <div class="row d-flex justify-content-center">
+      <div class="col-8">
+        <div id="processControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/image/s6/section-six-carousel(1).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Step one">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(2).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Step Two">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(3).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Step Three">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(4).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Step Four">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(5).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Step Five">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#processControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#processControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     </div>
   </section>
 
   <!--section 2-->
-  <section class="container section-styling">
+  <!-- <section class="container section-styling">
     <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <p>Why me</p>
@@ -165,10 +232,10 @@ if (isset($_POST['submit'])) {
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!--section 3-->
-  <section class="container section-styling" id="services">
+  <!-- <section class="container section-styling" id="services">
     <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <p>Services</p>
@@ -202,9 +269,9 @@ if (isset($_POST['submit'])) {
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--section 4-->
-  <section class="container section-styling" id="portfolio">
+  <!-- <section class="container section-styling" id="portfolio">
     <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <p>Portfolio</p>
@@ -248,23 +315,23 @@ if (isset($_POST['submit'])) {
           <div class="col-12">
             <p class="fs-4">Major Details Cleaning Service LLC/Auto Detailing - Logo Creation</p>
             <p>
-            Major Details Wanted A New Logo. In Return We Were Able To Provide This Business With A Fresh Look To Use On Their T-Shirts, Hats, Trucks And Social Media Platforms.
+              Major Details Wanted A New Logo. In Return We Were Able To Provide This Business With A Fresh Look To Use On Their T-Shirts, Hats, Trucks And Social Media Platforms.
             </p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-12 col-sm-12">
-          <span class="badge rounded-pill text-bg-light">Branding</span>
+            <span class="badge rounded-pill text-bg-light">Branding</span>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12">
-          <span class="badge rounded-pill text-bg-light">Logo Design</span>
+            <span class="badge rounded-pill text-bg-light">Logo Design</span>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--section 5-->
-  <section class="container section-styling" id="testimonials">
+  <!-- <section class="container section-styling" id="testimonials">
     <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <p>Testimonials</p>
@@ -289,19 +356,19 @@ if (isset($_POST['submit'])) {
         <div class="row">
           <p class="fs-1">"</p>
           <p>
-          I Was Completely New To The Concept Of Graphic Design.  I Knew What I Wanted But Had No Idea How To Make It Happen.  Austin Took The Time To Hear Me And Capture My Vision. He Is Extremely Patient And Can Bring Your Ideas To Life.  Thanks Austin For Holding My Hand Through The Process.
+            I Was Completely New To The Concept Of Graphic Design. I Knew What I Wanted But Had No Idea How To Make It Happen. Austin Took The Time To Hear Me And Capture My Vision. He Is Extremely Patient And Can Bring Your Ideas To Life. Thanks Austin For Holding My Hand Through The Process.
           </p>
           <p class="fs-4">Mr. Angelethy</p>
           <p>Owner, Major Details Cleaning Service, LLC/Auto Detailing</p>
         </div>
         <div class="row">
-        <img src="/image/s5/major-details-s5.png" width="200px" alt="Atlanta Creative Solutions LLC Company Reviews">
+          <img src="/image/s5/major-details-s5.png" width="200px" alt="Atlanta Creative Solutions LLC Company Reviews">
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--section 6-->
-  <section class="container section-styling" id="process">
+  <!-- <section class="container section-styling" id="process">
     <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <p>Methodology</p>
@@ -310,45 +377,45 @@ if (isset($_POST['submit'])) {
     </div>
     <div class="row">
       <div class="col-12">
-      <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/image/s6/section-six-carousel(1).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Services">
-    </div>
-    <div class="carousel-item">
-      <img src="/image/s6/section-six-carousel(2).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Services">
-    </div>
-    <div class="carousel-item">
-      <img src="/image/s6/section-six-carousel(3).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Services">
-    </div>
-    <div class="carousel-item">
-      <img src="/image/s6/section-six-carousel(4).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Services">
-    </div>
-    <div class="carousel-item">
-      <img src="/image/s6/section-six-carousel(5).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Services">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+        <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/image/s6/section-six-carousel(1).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Services">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(2).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Services">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(3).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Services">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(4).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Services">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/s6/section-six-carousel(5).png" class="d-block w-100" alt="Atlanta Creative Solutions LLC Services">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--section 7-->
-  <section class="container section-styling" id="about">
+  <!-- <section class="container section-styling" id="about">
     <div class="row">
       <div class="col-lg-6 col-md-12 col-sm-12">
         <div class="row">
@@ -360,7 +427,7 @@ if (isset($_POST['submit'])) {
         <div class="row">
           <div class="col-12">
             <p>
-            Hello My Name Is Austin. Here In Atlanta Georgia We Here At Atlanta Creative Solutions Strive To Provide Our Clients With A Streamline Process From Start To Finish. When All Is Said And Done We Want To Make Sure That They Feel Like They Have The Confidence To Go Out And Make A Bigger Difference In Their Community With The Service We Can Provide To Them.
+              Hello My Name Is Austin. Here In Atlanta Georgia We Here At Atlanta Creative Solutions Strive To Provide Our Clients With A Streamline Process From Start To Finish. When All Is Said And Done We Want To Make Sure That They Feel Like They Have The Confidence To Go Out And Make A Bigger Difference In Their Community With The Service We Can Provide To Them.
             </p>
           </div>
         </div>
@@ -369,7 +436,7 @@ if (isset($_POST['submit'])) {
         <img src="/image/s7/hp-section-seven.png" alt="Atlanta Creative Solutions LLC Creative Solutions Specialists">
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- section 8
   <section id="faq">
     <div class="row">
@@ -382,36 +449,35 @@ if (isset($_POST['submit'])) {
   <!--section 9-->
   <section id="contact">
     <div class="row">
-      <div class="col-12">
-        <p>Need A High-Performing Website?</p>
-        <p class="fs-4">Let Us Get Started</p>
+      <div class="col-12 text-center">
+        <h1>Need A High-Performing Website?</h1>
+        <p><i>Let Us Get Started</i></p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-      <form method="post" action="index.php">
-              <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Name" name="name" required />
-              </div>
-              <div class="mb-3">
-                <input type="email" class="form-control" placeholder="Email" name="email">
-              </div>
-              <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Phone" name="tel" pattern="[0-9-()]+" title="Phone number" />
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <input id="submit_btn" hidden disabled value="Submit" type="submit" name="submit" value="Submit" class="reviews-contact-form-submit" />
-                </div>
-              </div>
-              <div class="row mt-2">
-                <div class="col-12">
-                  <div data-callback="enableSubmit" class="g-recaptcha" data-sitekey="6LdMPyogAAAAAP9TegH0MCML_Mr_2k5PK6OhCReW">
-                  </div>
-                </div>
-              </div>
-            </form>
+    <div class="row d-flex justify-content-center">
+      <div class="col-6">
+        <form method="post" action="index.php">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Name" name="name" required />
           </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Email" name="email">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Phone" name="tel" pattern="[0-9-()]+" title="Phone number" />
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <input id="submit_btn" hidden disabled value="Submit" type="submit" name="submit" value="Submit" class="reviews-contact-form-submit" />
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-12">
+              <div data-callback="enableSubmit" class="g-recaptcha" data-sitekey="6LdMPyogAAAAAP9TegH0MCML_Mr_2k5PK6OhCReW">
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </section>
@@ -425,6 +491,8 @@ if (isset($_POST['submit'])) {
       </div>
     </div>
   </footer>
+  <!--Bootstrap JS CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <!--Facebook chat box script-->
   <script>
     var chatbox = document.getElementById('fb-customer-chat');
